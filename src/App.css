@@ -1,0 +1,22 @@
+.app.light {
+  --bg-color: #f7f7f7;
+  --text-color: #111;
+  --card-bg: #ffffff;
+  --card-text: #111;
+  --modal-bg: #fff;
+}
+
+.app.dark {
+  --bg-color: #0e0e0e;
+  --text-color: #fff;
+  --card-bg: #1c1c1c;
+  --card-text: #fff;
+  --modal-bg: #222;
+}
+
+.app {
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  transition: 0.3s ease;
+}

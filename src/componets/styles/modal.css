@@ -1,0 +1,40 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30;
+}
+
+.modal {
+  background: var(--modal-bg);
+  color: var(--card-text);
+  width: 90%;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: 0.3s ease;
+}
+
+.modal img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  font-size: 26px;
+  border: none;
+  background: none;
+  color: var(--card-text);
+  cursor: pointer;
+}
