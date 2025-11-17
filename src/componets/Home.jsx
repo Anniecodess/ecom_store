@@ -3,7 +3,7 @@ import Card from "./Card";
 import Modal from "./Model";
 import Spinner from "./Spinner";
 import Favorite from "./Favorite";
-import "./styles/home.css";
+import "./styles/Home.css";
 
 
 function Home() {
