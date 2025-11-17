@@ -1,16 +1,64 @@
-# React + Vite
+ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟Mini Product Dashboard
 
-Currently, two official plugins are available:
+## 🚀 About The App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Mini Product Dashboard** is a React-based shopping platform offering product search, sorting, and filtering features to enhance your shopping experience. Simple, efficient, and tailored to your needs!
 
-## React Compiler
+🔗 Live Demo:** [Link](https://product-dashboard-gamma-sand.vercel.app/) 
+ 
+ 
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Local Installation
 
-## Expanding the ESLint configuration
+Follow these steps to run the project locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone git_url_here
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## ⚙️ Tech Stack
+**Build Tools:**
+- Visual Studio code
+- Vite
+- npm
+
+**Development:**
+- [React](https://reactjs.org/) (v18.2)
+- [Tailwind Css](https://reactrouter.com/) for styling
+
+---
+
+## 🌟 Key Features
+
+- **Efficient Searching:** Quickly locate products with a powerful and accurate search system tailored for ease of use.  
+- **Dark Mode:** Dark mode and light mode toggle functionality.  
+- **Responsive Design:** Enjoy a seamless and optimized experience across all devices, from mobile to desktop.  
+
+---
+
+*Created with ❤️ by [Anubhi](https://github.com/Anniecodess)*
